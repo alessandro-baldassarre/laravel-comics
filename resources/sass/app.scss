@@ -5,9 +5,25 @@ div.my-container {
     @include flexContainer;
 }
 
+div.top-banner{
+  height: 20px;
+  background-color: $primaryColor;
+  .my-container{
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    font-size: .5rem;
+    color: white;
+    span{
+      margin-left: 2rem;
+    }
+  }
+}
+
 div#header {
     height: 85px;
     .logo {
+      margin-right: 1.5rem;
       img {
         height: 60px;
       }

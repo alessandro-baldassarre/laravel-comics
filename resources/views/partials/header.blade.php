@@ -2,7 +2,14 @@
     $name = Route::currentRouteName();
 @endphp
 
+<div class="top-banner">
+      <div class="my-container">
+        <span>dc power™visa</span>
+        <span>additional dc sites</span>
+      </div>
+</div>
 <div id="header">
+    
     <div class="my-container">
       <div class="logo">
         <a href="{{route('home')}}"><img src="{{asset("assets/images/dc-logo.png")}}" alt="dc logo" /></a> 
