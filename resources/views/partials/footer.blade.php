@@ -22,25 +22,32 @@
           <div>
             <h5>dc</h5>
             <ul>
-              <a v-for="(link, index) in dcLinks" :key="index" :href="link.url"
-                ><li>{{ link.name }}</li></a
-              >
+                <li>Term Of Use</li>
+                <li>Privacy policy (new)</li>
+                <li>Ad Choises</li>
+                <li>Advertising</li>
+                <li>Jobs</li>
+                <li>Subscription</li>
+                <li>Talent Workshops</li>
+                <li>CPSC Certificates</li>
+                <li>Ratings</li>
+                <li>Shop Help</li>
+                <li>Contacts Us</li>
             </ul>
           </div>
           <div>
             <h5>sites</h5>
             <ul>
-              <a
-                v-for="(link, index) in sitesLinks"
-                :key="index"
-                :href="link.url"
-                ><li>{{ link.name }}</li></a
-              >
+                <li>DC</li>
+                <li>MAD Magazine</li>
+                <li>DC Kids</li>
+                <li>DC Universe</li>
+                <li>DC Power Visa</li>
             </ul>
           </div>
         </div>
         <div class="footer-menu-logo">
-          <img src="../assets/img/dc-logo-bg.png" alt="dc logo" />
+          <img src="{{asset("assets/images/dc-logo-bg.png")}}" alt="dc logo" />
         </div>
       </div>
     </div>
@@ -52,19 +59,19 @@
         <div class="footer-social">
           <a href="#">follow us</a>
           <a href="#"
-            ><img src="../assets/img/footer-facebook.png" alt="facebook logo" />
+            ><img src="{{asset("assets/images/footer-facebook.png")}}" alt="facebook logo" />
           </a>
           <a href="#"
-            ><img src="../assets/img/footer-twitter.png" alt="twitter logo" />
+            ><img src="{{asset("assets/images/footer-twitter.png")}}" alt="twitter logo" />
           </a>
           <a href="#"
-            ><img src="../assets/img/footer-youtube.png" alt="yootube logo" />
+            ><img src="{{asset("assets/images/footer-youtube.png")}}" alt="yootube logo" />
           </a>
           <a href="#"
-            ><img src="../assets/img/footer-pinterest.png" alt="pinterest logo"
+            ><img src="{{asset("assets/images/footer-pinterest.png")}}" alt="pinterest logo"
           /></a>
           <a href="#"
-            ><img src="../assets/img/footer-periscope.png" alt="periscope logo"
+            ><img src="{{asset("assets/images/footer-periscope.png")}}" alt="periscope logo"
           /></a>
         </div>
       </div>

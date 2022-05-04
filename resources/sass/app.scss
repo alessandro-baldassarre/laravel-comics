@@ -1,5 +1,5 @@
-@import "./partials/_variables.scss";
-@import "./partials/_common.scss";
+@import "partials/_variables.scss";
+@import "partials/_common.scss";
 
 div.my-container {
     @include flexContainer;
@@ -39,6 +39,65 @@ div#header {
                 color: $primaryColor;
                 border-bottom: 5px solid $primaryColor;
             }
+      }
+    }
+  }
+
+  .footer-menu {
+    height: 280px;
+    background-image: url('/assets/images/footer-bg.jpg');
+    overflow: hidden;
+    .footer-menu-links {
+      display: flex;
+      h5 {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0 1.5rem 0.5rem 0;
+        padding: 0;
+        li {
+        font-size: 0.6rem;
+        text-decoration: none;
+        color: $grayColor;
+      }
+      }
+      
+    }
+  
+    .footer-menu-logo {
+      img {
+        height: 415px;
+      }
+    }
+  }
+  
+  .footer-bottom {
+    height: 80px;
+    background-color: $lightBlackBgColor;
+    .footer-button a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0.6rem 0.8rem;
+      border: 2px solid $primaryColor;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .footer-social {
+      a {
+        color: $primaryColor;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      img {
+        margin: 0 0 0 1rem;
+        height: 25px;
+        vertical-align: middle;
       }
     }
   }
