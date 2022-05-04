@@ -40,6 +40,11 @@
             <a href="/">shop</a>
           </li>
         </ul>
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+          <img src="{{asset("assets/images/search.png")}}" alt="search icon">
+        </div>
+        
       </div>
     </div>
   </div>
