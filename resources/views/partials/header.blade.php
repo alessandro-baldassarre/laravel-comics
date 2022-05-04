@@ -5,39 +5,39 @@
 <div id="header">
     <div class="my-container">
       <div class="logo">
-        <img src="{{asset("assets/images/dc-logo.png")}}" alt="dc logo" />
+        <a href="{{route('home')}}"><img src="{{asset("assets/images/dc-logo.png")}}" alt="dc logo" /></a> 
       </div>
       <div class="header-nav">
         <ul>
-          <li>
-            <a href="/">characters</a>
+          <li class="{{ ($name=="characters") ? 'active' : '' }}">
+            <a href="{{route('characters')}}">characters</a>
           </li>
           <li class="{{ ($name=="comics") ? 'active' : '' }}">
             <a href="{{route("comics")}}" >comics</a>
           </li>
-          <li>
-            <a href="/">movies</a>
+          <li class="{{ ($name=="movies") ? 'active' : '' }}"> 
+            <a href="{{route("movies")}}" >movies</a>
           </li>
-          <li>
-            <a href="/">tv</a>
+          <li class="{{ ($name=="tv") ? 'active' : '' }}">
+            <a href="{{route("tv")}}" >tv</a>
           </li>
-          <li>
-            <a href="/">games</a>
+          <li class="{{ ($name=="games") ? 'active' : '' }}">
+            <a href="{{route("games")}}" >games</a>
           </li>
-          <li>
-            <a href="/">collectibles</a>
+          <li class="{{ ($name=="collectibles") ? 'active' : '' }}">
+            <a href="{{route("collectibles")}}" >collectibles</a>
           </li>
-          <li>
-            <a href="/">video</a>
+          <li class="{{ ($name=="video") ? 'active' : '' }}">
+            <a href="{{route("video")}}" >video</a>
           </li>
-          <li>
-            <a href="/">fans</a>
+          <li class="{{ ($name=="fans") ? 'active' : '' }}">
+            <a href="{{route("fans")}}" >fans</a>
           </li>
-          <li>
-            <a href="/">news</a>
+          <li class="{{ ($name=="news") ? 'active' : '' }}">
+            <a href="{{route("news")}}" >news</a>
           </li>
-          <li>
-            <a href="/">shop</a>
+          <li class="{{ ($name=="shop") ? 'active' : '' }}">
+            <a href="{{route("shop")}}" >shop</a>
           </li>
         </ul>
         <div class="search-bar">
