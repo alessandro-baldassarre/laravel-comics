@@ -20,6 +20,6 @@
         <a id="load-more" href="#">load more</a>
       </div>
     </div>
-  </div>
+</div>
     
 @endsection
