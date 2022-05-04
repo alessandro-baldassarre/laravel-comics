@@ -1,1 +1,44 @@
-//
+@import "./partials/_variables.scss";
+@import "./partials/_common.scss";
+
+div.my-container {
+    @include flexContainer;
+}
+
+div#header {
+    height: 85px;
+    .logo {
+      img {
+        height: 60px;
+      }
+    }
+  
+    .header-nav {
+      height: 100%;
+      ul {
+        height: 100%;
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        li {
+          margin: 0 0.5rem;
+          line-height: 85px;
+          text-transform: uppercase;
+          font-size: 0.65rem;
+          cursor: pointer;
+          a{
+              text-decoration: none;
+              color: inherit;
+          }
+          &:hover {
+                color: $primaryColor;
+                border-bottom: 5px solid $primaryColor;
+          }
+        }
+        .active {
+                color: $primaryColor;
+                border-bottom: 5px solid $primaryColor;
+            }
+      }
+    }
+  }

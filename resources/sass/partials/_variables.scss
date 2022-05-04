@@ -1,0 +1,22 @@
+$titleColor : rgb(204, 0, 143);
+$mainBgColor : rgb(228, 228, 228);
+
+$primaryColor : rgb(0, 116, 245);
+$darkGreyBgColor : rgb(26, 26, 26);
+$lightBlackBgColor : rgb(42, 42, 42);
+$grayColor : rgb(121, 121, 121);
+
+@mixin flexContainer {
+    width: 67%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin backgroundSize($value){
+    background-size: $value;
+    -moz-background-size: $value;
+    -o-background-size: $value;
+}
