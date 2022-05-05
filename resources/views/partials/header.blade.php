@@ -19,7 +19,7 @@
           <li class="{{ ($name=="characters") ? 'active' : '' }}">
             <a href="{{route('characters')}}">characters</a>
           </li>
-          <li class="{{ ($name=="comics") ? 'active' : '' }}">
+          <li class="{{ ($name=="comics" || $name=="comic") ? 'active' : '' }}">
             <a href="{{route("comics")}}" >comics</a>
           </li>
           <li class="{{ ($name=="movies") ? 'active' : '' }}"> 
