@@ -265,6 +265,127 @@ div#header .header-nav .search-bar img {
   text-align: center;
 }
 
+.comic .comic-main {
+  padding: 4rem 0;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.comic .comic-main .comic-main-top {
+  display: flex;
+  margin: 0 auto;
+  width: 67%;
+}
+
+.comic .comic-main .comic-main-top .comic-description {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.comic .comic-main .comic-main-top .comic-description h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.comic .comic-main .comic-main-top .comic-description .price {
+  display: flex;
+  background-color: #55BA59;
+  border: 2px solid lightgray;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.comic .comic-main .comic-main-top .comic-description .price .price-left {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-right: 2px solid lightgray;
+}
+
+.comic .comic-main .comic-main-top .comic-description .price .price-left span {
+  text-transform: uppercase;
+}
+
+.comic .comic-main .comic-main-top .comic-description .price .price-right {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.comic .comic-main .comic-main-top .advertisement {
+  width: 30%;
+  padding: 0 1rem;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+}
+
+.comic .comic-main .comic-main-top .advertisement img {
+  width: 100%;
+}
+
+.comic .comic-details {
+  width: 67%;
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 0.65rem;
+}
+
+.comic .comic-details h5 {
+  border-bottom: 1px solid rgb(236, 236, 236);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.comic .comic-details .span-left {
+  width: 25%;
+}
+
+.comic .comic-details .span-right {
+  width: 75%;
+  color: rgb(0, 116, 245);
+}
+
+.comic .comic-details .talent {
+  width: 45%;
+  margin-right: 2rem;
+}
+
+.comic .comic-details .talent .art {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding-bottom: 0.5rem;
+}
+
+.comic .comic-details .talent .written {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 0.5rem 0;
+}
+
+.comic .comic-details .specs {
+  width: 45%;
+}
+
+.comic .comic-details .specs .series {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding-bottom: 0.5rem;
+}
+
+.comic .comic-details .specs .price {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 0.5rem 0;
+}
+
+.comic .comic-details .specs .sale-date {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 0.5rem 0;
+}
+
 .product-card {
   width: calc((100% - 6rem) / 6);
   height: 180px;

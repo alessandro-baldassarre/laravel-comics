@@ -188,9 +188,6 @@ div#header {
   }
 
   .comic{
-    // position: relative;
-    // background-color: white;
-    // bottom: 100px;
     .comic-top{
       background-color: $primaryColor;
       height: 60px;
@@ -224,6 +221,109 @@ div#header {
           text-align: center;
         }
         
+      }
+    }
+    .comic-main{
+      padding: 4rem 0;
+      border-bottom: 1px solid rgb(236, 236, 236);
+      .comic-main-top{
+        display: flex;
+        margin: 0 auto;
+        width: 67%;
+        .comic-description{
+        width: 70%;
+        font-size: .8rem;
+          h1{
+            font-size: 1rem;
+            text-transform: uppercase;
+          }
+          .price{
+            display: flex;
+            background-color: #55BA59;
+            border: 2px solid lightgray;
+            color: white;
+            margin: .5rem 0;
+            .price-left{
+                width: 75%;
+                display: flex;
+                justify-content: space-between;
+                padding: .5rem;
+                border-right: 2px solid lightgray;
+                span{
+                  text-transform: uppercase;
+                }
+            }
+            .price-right{
+              padding: .5rem;
+              text-align: center;
+              }
+          }
+        }
+         .advertisement{
+          width: 30%;
+          padding:0 1rem;
+          text-align: right;
+          text-transform: uppercase;
+          font-size: .5rem;
+          img{
+            width: 100%;
+          }
+        }
+      }
+      
+    }
+    .comic-details{
+      width: 67%;
+      display: flex;
+      margin: 0 auto;
+      padding: 2rem 0;
+      font-size: .65rem;
+      h5{
+        border-bottom: 1px solid rgb(236, 236, 236);
+        margin-bottom: 1rem;
+        padding-bottom: .5rem;
+        font-size: .8rem;
+      } 
+      .span-left{
+            width: 25%;
+          } 
+      .span-right{
+          width: 75%;
+          color: $primaryColor;
+      }
+      .talent{
+        width: 45%;
+        margin-right: 2rem;
+        .art{
+          display: flex;
+          border-bottom: 1px solid rgb(236, 236, 236);
+          padding-bottom: .5rem;
+         
+        }
+        .written{
+          display: flex;
+          border-bottom: 1px solid rgb(236, 236, 236);
+          padding: .5rem 0; 
+        }
+
+      }
+      .specs{
+        width: 45%;
+        .series{
+          display: flex;
+          border-bottom: 1px solid rgb(236, 236, 236);
+          padding-bottom: .5rem;
+        }
+        .price{
+          display: flex;
+          border-bottom: 1px solid rgb(236, 236, 236);
+          padding: .5rem 0;
+        }
+        .sale-date{
+          display: flex;
+          border-bottom: 1px solid rgb(236, 236, 236);
+          padding: .5rem 0;
+        }
       }
     }
   }
