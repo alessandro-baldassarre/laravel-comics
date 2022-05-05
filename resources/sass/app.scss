@@ -187,6 +187,47 @@ div#header {
     }
   }
 
+  .comic{
+    // position: relative;
+    // background-color: white;
+    // bottom: 100px;
+    .comic-top{
+      background-color: $primaryColor;
+      height: 60px;
+      position: relative;
+      .img-card {
+        width: 180px;
+        position: absolute;
+        bottom: 15px;
+        border: 2px solid lightgray;
+        img { 
+          width: 100%;
+          object-fit: cover;
+        }
+        span{
+          background-color: #00A9D9;
+          text-transform: uppercase;
+          color: white;
+          font-size: 0.65rem;
+          padding: .25rem;
+        }
+        .type{
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .gallery{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          text-align: center;
+        }
+        
+      }
+    }
+  }
+
   .product-card {
     width: calc((100% - 6rem) / 6);
     height: 180px;
